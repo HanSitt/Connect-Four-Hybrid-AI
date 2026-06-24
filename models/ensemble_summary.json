@@ -1,0 +1,46 @@
+{
+  "test_set_size": 488,
+  "individual_models": {
+    "random_forest": {
+      "top1_accuracy": 0.9036885245901639,
+      "top3_accuracy": 0.9610655737704918
+    },
+    "xgboost": {
+      "top1_accuracy": 0.9098360655737705,
+      "top3_accuracy": 0.9733606557377049
+    }
+  },
+  "ensemble_equal_weight": {
+    "top1_accuracy": 0.9118852459016393,
+    "top3_accuracy": 0.9631147540983607,
+    "rf_weight": 0.5
+  },
+  "weight_sweep": {
+    "rf_weight_0.3": {
+      "top1_accuracy": 0.9098360655737705,
+      "top3_accuracy": 0.9713114754098361,
+      "rf_weight": 0.3
+    },
+    "rf_weight_0.4": {
+      "top1_accuracy": 0.9118852459016393,
+      "top3_accuracy": 0.9672131147540983,
+      "rf_weight": 0.4
+    },
+    "rf_weight_0.5": {
+      "top1_accuracy": 0.9118852459016393,
+      "top3_accuracy": 0.9631147540983607,
+      "rf_weight": 0.5
+    },
+    "rf_weight_0.6": {
+      "top1_accuracy": 0.9118852459016393,
+      "top3_accuracy": 0.9631147540983607,
+      "rf_weight": 0.6
+    },
+    "rf_weight_0.7": {
+      "top1_accuracy": 0.9098360655737705,
+      "top3_accuracy": 0.9610655737704918,
+      "rf_weight": 0.7
+    }
+  },
+  "best_weight_config": "rf_weight_0.4"
+}

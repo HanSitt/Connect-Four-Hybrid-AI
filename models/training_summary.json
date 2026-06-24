@@ -1,0 +1,19 @@
+{
+  "dataset_rows_total": 2718,
+  "ai_decision_rows": 2436,
+  "train_rows": 1948,
+  "test_rows": 488,
+  "num_features": 68,
+  "random_forest": {
+    "top1_accuracy": 0.9036885245901639,
+    "top3_accuracy": 0.9610655737704918
+  },
+  "xgboost": {
+    "top1_accuracy": 0.9098360655737705,
+    "top3_accuracy": 0.9733606557377049
+  },
+  "data_sources": {
+    "self_play": 2159,
+    "real_gameplay": 277
+  }
+}

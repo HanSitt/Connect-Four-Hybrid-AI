@@ -1,0 +1,86 @@
+{
+  "approach": "curriculum",
+  "stages": [
+    {
+      "stage": "Stage1_random",
+      "opponent": "random",
+      "opponent_depth": null,
+      "timesteps": 60000,
+      "training_time_seconds": 26.34850788116455,
+      "post_stage_eval": {
+        "episodes": 50,
+        "wins": 41,
+        "losses": 8,
+        "draws": 0,
+        "win_rate": 0.82,
+        "invalid_move_attempts": 30
+      }
+    },
+    {
+      "stage": "Stage2_minimax_d1",
+      "opponent": "minimax",
+      "opponent_depth": 1,
+      "timesteps": 60000,
+      "training_time_seconds": 230.36823201179504,
+      "post_stage_eval": {
+        "episodes": 50,
+        "wins": 50,
+        "losses": 0,
+        "draws": 0,
+        "win_rate": 1.0,
+        "invalid_move_attempts": 0
+      }
+    },
+    {
+      "stage": "Stage3_minimax_d3",
+      "opponent": "minimax",
+      "opponent_depth": 3,
+      "timesteps": 40000,
+      "training_time_seconds": 2426.857347011566,
+      "post_stage_eval": {
+        "episodes": 50,
+        "wins": 50,
+        "losses": 0,
+        "draws": 0,
+        "win_rate": 1.0,
+        "invalid_move_attempts": 0
+      }
+    }
+  ],
+  "total_training_time_seconds": 2683.5740869045258,
+  "evaluation_episodes_per_opponent": 200,
+  "final_results": {
+    "vs_random": {
+      "episodes": 200,
+      "wins": 131,
+      "losses": 50,
+      "draws": 0,
+      "win_rate": 0.655,
+      "invalid_move_attempts": 600
+    },
+    "vs_minimax_depth1": {
+      "episodes": 200,
+      "wins": 0,
+      "losses": 200,
+      "draws": 0,
+      "win_rate": 0.0,
+      "invalid_move_attempts": 0
+    },
+    "vs_minimax_depth3": {
+      "episodes": 200,
+      "wins": 200,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "invalid_move_attempts": 0
+    },
+    "vs_minimax_depth5": {
+      "episodes": 50,
+      "wins": 0,
+      "losses": 50,
+      "draws": 0,
+      "win_rate": 0.0,
+      "invalid_move_attempts": 0
+    }
+  }
+}
